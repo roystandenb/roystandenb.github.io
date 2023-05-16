@@ -37,11 +37,8 @@
   margin: 0 8px;/* Este es el espacio que hay entre los botones del menu */
   font-size: 13px;
 }
-.my-nav-link-menu-superior-select {
-  /* font-family: 'Karla'; */
-  margin: 0 8px;/* Este es el espacio que hay entre los botones del menu */
-  font-size: 13px;
-      color: "#ffff00" !important;
+.active{
+	color: yellow !important;
 }
 
 /* menu superior */
@@ -177,4 +174,39 @@
 	#boton-navbar{
 		display : none !important;
 	}
+}
+
+.caja-slider{
+	color: black;
+    background-color: white;
+    width: 461px;
+	left: 16%;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+	
+	top: 61px;
+    margin-bottom: 99px;
+    padding-top: 10px;
+}
+.caja-slider h5{
+	color : blue;
+}
+.boton-matriculate{
+	color: #fff;
+    background-color: #FF8A00;
+    border-color: #FF8A00;
+    border-radius: 16px;
+}
+.cajas-beneficios{
+	padding: 20px;
+    background-color: #D9D9D9;
 }
