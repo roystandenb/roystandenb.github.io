@@ -211,3 +211,11 @@
     background-color: #D9D9D9 !important;
 	border-color: #D9D9D9 !important;
 }
+#icono-whatsapp{
+	width : 70px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index : 1;
+	cursor:pointer;
+}
