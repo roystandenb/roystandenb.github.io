@@ -68,7 +68,7 @@
 		/* Display_serif */
 		font-style: normal;
 		font-weight: 500;
-		font-size: 34px;
+		font-size: 24px;
 		line-height: 77px;
 		/* identical to box height */
 	}
@@ -92,9 +92,9 @@
 	#gratis{
 		/* gratuito */
 		position: absolute;
-		width: 64px;
-		height: 26px;
-		right: 14%;
+		width: 57px;
+		height: 22px;
+		right: 4%;
 		top: 53.37px;
 		transform: rotate(-9.87deg);
 		background-color: yellow;
@@ -103,7 +103,8 @@
 		font-weight: 700;
 		border: red solid 1px;
 		z-index: 1;
-		padding-bottom: 25px;
+		/* padding-bottom: 34px; */
+		font-size: 14px;
 	}
 }
 @media (min-width: 601px) {
