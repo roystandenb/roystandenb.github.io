@@ -49,8 +49,24 @@
 	color: white;
 	border-color: white;
 }
+#header-superior{
+	height: 88px;
+	margin-bottom: 0px;
+}
+/*
+Cambiar el header en el futuro por uno con la foto del instituto
+#header-superior {
+  height: 165px;
+  margin-bottom: 0px;
+  background: url('../img/fachada_colegio_1.jpg') center center / auto 300% no-repeat;
+}
+*/
 @media (max-width: 600px) {
 	/* Resolucion celulares */
+	#header-superior{
+		height: 50px;
+		margin-bottom: 0px;
+	}
 	#jovenes-adultos{
 		font-weight: 500; 
 		color: #1B9140;
@@ -67,13 +83,14 @@
 		font-weight: 500;
 		font-size: 24px;
 		line-height: 77px;
+		max-height: 72px;
 		/* identical to box height */
 	}
 	#logo-negro-instituto-superior{
 		display : none;
 	}
 	.row-instituto-tierras-blancas{
-		max-height: 90px !important;
+		max-height: 32px !important;
 		margin-bottom: -43px !important;
 	}
 	#logo-blanco-instituto{
@@ -92,7 +109,7 @@
 		width: 57px;
 		height: 22px;
 		right: 4%;
-		top: 53.37px;
+		top: 17.369999999999997px;
 		transform: rotate(-9.87deg);
 		background-color: yellow;
 		text-align: center;
@@ -212,10 +229,14 @@
 	border-color: #D9D9D9 !important;
 }
 #icono-whatsapp{
-	width : 70px;
-	position: fixed;
-	bottom: 50px;
-	right: 50px;
-	z-index : 1;
-	cursor:pointer;
+	width: 70px;
+      height: 70px;
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      z-index: 1;
+
+	background-image: url("../img/iconos/whatsapp.png");
+	background-size: cover;
+	background-position: center;
 }
