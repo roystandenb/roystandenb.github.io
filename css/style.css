@@ -265,6 +265,16 @@ Cambiar el header en el futuro por uno con la foto del instituto
     padding-right: 5px !important;
 	padding-top: 5px !important;
 }
+.card-img-wrapper{
+	margin: -5px;
+}
+.divider-card{
+	background-color: #1B9140;
+    height: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
 #icono-whatsapp{
 	width: 70px;
       height: 70px;
