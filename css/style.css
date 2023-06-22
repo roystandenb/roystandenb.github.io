@@ -61,10 +61,16 @@ Cambiar el header en el futuro por uno con la foto del instituto
   background: url('../img/fachada_colegio_1.jpg') center center / auto 300% no-repeat;
 }
 */
+#contenedor-contenido{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
 @media (max-width: 600px) {
 	/* Resolucion celulares */
 	#header-superior{
-		height: 50px;
+		height: 60px;
 		margin-bottom: 0px;
 	}
 	#jovenes-adultos{
@@ -119,6 +125,12 @@ Cambiar el header en el futuro por uno con la foto del instituto
 		z-index: 1;
 		/* padding-bottom: 34px; */
 		font-size: 14px;
+	}
+	#contenedor-contenido{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }
 @media (min-width: 601px) {
@@ -227,6 +239,9 @@ Cambiar el header en el futuro por uno con la foto del instituto
 	padding: 20px !important;
     background-color: #D9D9D9 !important;
 	border-color: #D9D9D9 !important;
+	padding-left: 5px !important;
+    padding-right: 5px !important;
+	padding-top: 5px !important;
 }
 #icono-whatsapp{
 	width: 70px;
