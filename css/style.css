@@ -145,7 +145,8 @@ Cambiar el header en el futuro por uno con la foto del instituto
 		width: 57px;
 		height: 22px;
 		right: 4%;
-		top: 17.369999999999997px;
+		top: 53px;
+		left : 281px;
 		transform: rotate(-9.87deg);
 		background-color: yellow;
 		text-align: center;
@@ -153,7 +154,7 @@ Cambiar el header en el futuro por uno con la foto del instituto
 		font-weight: 700;
 		border: red solid 1px;
 		z-index: 1;
-		/* padding-bottom: 34px; */
+		padding-bottom: 21px;
 		font-size: 14px;
 	}
 	#contenedor-contenido{
@@ -270,10 +271,10 @@ Cambiar el header en el futuro por uno con la foto del instituto
 
 @media (max-width: 1118px) {
   .collage-header-derecha {
-    opacity: 1!important;
+    opacity: 0.5!important;
   }
   .collage-header-izquierda{
-    opacity: 1!important;
+    opacity: 0.5!important;
 	position: absolute;
 	margin-top : -83px;
   }
@@ -290,6 +291,17 @@ Cambiar el header en el futuro por uno con la foto del instituto
   .collage-header-izquierda,
   .collage-header-derecha {
     opacity: 1;
+  }
+}
+
+@media (max-width: 580px) {
+  .collage-header-derecha {
+    opacity: 1!important;
+  }
+  .collage-header-izquierda{
+    opacity: 1!important;
+	position: absolute;
+	margin-top : -83px;
   }
 }
 
@@ -352,4 +364,7 @@ Cambiar el header en el futuro por uno con la foto del instituto
 	background-image: url("../img/iconos/whatsapp.png");
 	background-size: cover;
 	background-position: center;
+}
+body{
+	min-width : 562px;
 }
