@@ -93,7 +93,7 @@ Cambiar el header en el futuro por uno con la foto del instituto
 @media (max-width: 600px) {
 	/* Resolucion celulares */
 	#header-superior{
-		height: 60px;
+		height: 160px;
 		margin-bottom: 0px;
 	}
 	#jovenes-adultos{
@@ -119,8 +119,9 @@ Cambiar el header en el futuro por uno con la foto del instituto
 		display : none;
 	}
 	.row-instituto-tierras-blancas{
-		max-height: 32px !important;
-		margin-bottom: -43px !important;
+		max-height: 90px !important;
+		margin-bottom: -50px !important;
+		position: absolute;
 	}
 	#logo-blanco-instituto{
 		width: 67px;
@@ -130,7 +131,13 @@ Cambiar el header en el futuro por uno con la foto del instituto
 		right: 10px;
 	}
 	.contenedor-redes-sociales-superior{
-		display:none;
+		position: absolute;
+		right: 1px;
+		top: 28px;
+	}
+	.contenedor-logo-letras{
+		position: absolute;
+		margin-top: -107px;
 	}
 	#gratis{
 		/* gratuito */
@@ -157,6 +164,18 @@ Cambiar el header en el futuro por uno con la foto del instituto
 	}
 	.dropdown-menu{
 		background-color: #1B9140 !important;
+	}
+	.collage-header-izquierda {
+	  max-width: 100%;
+	  margin-top: -0.5rem;
+	  max-height: 110px;
+	}
+
+	.collage-header-derecha {
+	  max-height: 118px;
+	  transform: scaleX(-1);
+	  margin-top: -2rem;
+	  margin-right: -1.7rem;
 	}
 }
 @media (min-width: 601px) {
@@ -229,6 +248,18 @@ Cambiar el header en el futuro por uno con la foto del instituto
 		right: -13rem;
 		top: 4.5rem;
 	}
+	.collage-header-izquierda {
+	  max-width: 100%;
+	  margin-top: -0.5rem;
+	  max-height: 160px;
+	}
+
+	.collage-header-derecha {
+	  max-height: 168px;
+	  transform: scaleX(-1);
+	  margin-top: -2rem;
+	  margin-right: -1.7rem;
+	}
 }
 @media (min-width: 990px){
 	/* Apenas se esconda el menu, se muestra el boton movil */
@@ -237,23 +268,14 @@ Cambiar el header en el futuro por uno con la foto del instituto
 	}
 }
 
-.collage-header-izquierda {
-  max-width: 100%;
-  margin-top: -0.5rem;
-  max-height: 160px;
-}
-
-.collage-header-derecha {
-  max-height: 168px;
-  transform: scaleX(-1);
-  margin-top: -2rem;
-  margin-right: -1.7rem;
-}
-
 @media (max-width: 1118px) {
-  .collage-header-izquierda,
   .collage-header-derecha {
-    opacity: 0.5!important;
+    opacity: 1!important;
+  }
+  .collage-header-izquierda{
+    opacity: 1!important;
+	position: absolute;
+	margin-top : -83px;
   }
 }
 
