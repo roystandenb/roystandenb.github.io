@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.073c9b0a.css",
-    "main.js": "/build/static/js/main.29152f37.js",
-    "static/js/787.d77dfc4f.chunk.js": "/build/static/js/787.d77dfc4f.chunk.js",
-    "static/media/logo.svg": "/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/build/index.html",
-    "main.073c9b0a.css.map": "/build/static/css/main.073c9b0a.css.map",
-    "main.29152f37.js.map": "/build/static/js/main.29152f37.js.map",
-    "787.d77dfc4f.chunk.js.map": "/build/static/js/787.d77dfc4f.chunk.js.map"
+    "main.css": "/roystandenb/static/css/main.073c9b0a.css",
+    "main.js": "/roystandenb/static/js/main.e91b55fd.js",
+    "static/js/787.d77dfc4f.chunk.js": "/roystandenb/static/js/787.d77dfc4f.chunk.js",
+    "static/media/logo.svg": "/roystandenb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/roystandenb/index.html",
+    "main.073c9b0a.css.map": "/roystandenb/static/css/main.073c9b0a.css.map",
+    "main.e91b55fd.js.map": "/roystandenb/static/js/main.e91b55fd.js.map",
+    "787.d77dfc4f.chunk.js.map": "/roystandenb/static/js/787.d77dfc4f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.29152f37.js"
+    "static/js/main.e91b55fd.js"
   ]
 }
